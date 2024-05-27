@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resources>
+		<PreResources base="{path-to-documents-ext}\js" webAppMount="/ext/js" className="org.apache.catalina.webresources.DirResourceSet" />
+		<PreResources base="{path-to-documents-ext}\css" webAppMount="/ext/css" className="org.apache.catalina.webresources.DirResourceSet" />
+		<PreResources base="{path-to-documents-ext}\jsp" webAppMount="/ext/jsp" className="org.apache.catalina.webresources.DirResourceSet" />
+		<PreResources base="{path-to-documents-ext}\config" webAppMount="/WEB-INF/classes" className="org.apache.catalina.webresources.DirResourceSet" />
+		<PreResources base="{path-to-documents-ext}\lib" webAppMount="/WEB-INF/lib" className="org.apache.catalina.webresources.DirResourceSet" />
+	</Resources>
+</Context>
